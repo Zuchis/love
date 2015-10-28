@@ -1,0 +1,1 @@
+start LOVE\love LOVE\.. "data/8.dat" 29 %*

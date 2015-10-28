@@ -1,0 +1,31 @@
+--Reaction-Diffusion
+DO = 1.82e-5	--cm^2/s (oxigen diffusion) [ref]
+Okv = 8.2e-3	--mol/l/s (oxigen production rate) [ref]
+Opc = 0.2		--s^-1 (oxigen consumption rate for proliferative) [ref]
+Oqc = Opc/2		--s^-1 (oxigen consumption rate for quiescent) [ref]
+O0 = 2.8e-3		--mol/l (initial oxygen) [ref]
+DG = DO			--cm^2/s (glucose diffusion) [arb]
+Gkv = 0.5e-5	--mol/l/s (glucose production rate) [test]
+Gpc = 1e-3		--s^-1 (glucose consumption rate for proliferative) [ref]
+Gqc = Gpc		--s^-1 (glucose consumption rate for quiescent) [log]
+G0 = O0			--mol/l (initial glucose) [arb]
+DB = DO/2		--cm^2/s (bevacizumab diffusion) [arb]
+Bkv = Okv		--mol/l/s (bevacizumab production rate) [test]
+Bpc = Opc		--s^-1 (bevacizumab consumption rate for proliferative) [test]
+Bqc = Bpc		--s^-1 (bevacizumab consumption rate for quiescent) [log]
+B0 = 0			--mol/l (initial bevacizumab) [log]
+
+--Cellular Automaton
+Op = 1.25e-5	--mol/l (minimum oxygen for proliferative) [ref]
+Oq = 8.2e-6		--mol/l (minimum oxygen for quiescent) [ref]
+Gt = 0.5*G0		--mol/l (minimum glucose) [ref]
+Ba = 1.5		--mol/l (maximum bevacizumab for angiogenesis) [test]
+Bv = 2.0		--mol/l (maximum bevacizumab for vessels) [test]
+Td = 16			--h (division time) [ref]
+Ta = 4*Td		--h (angiogenesis time) [test]
+Tn = 12*Td		--h (necrosis removal time) [test]
+
+--Misc
+itDay = 100		--iterations per day [arb]
+cmPixel = 0.07	--cm per pixel [log]
+itRDCA = 20		--RD iterations per CA iteration [test]

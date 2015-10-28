@@ -1,0 +1,32 @@
+Tempo entre imagens
+
+Paciente 1: 41 dias
+Paciente 2: 28 dias
+Paciente 3: 42 dias
+Paciente 4: 14 dias
+Paciente 5: 54 dias
+Paciente 6: 66 dias
+Paciente 7: 32 dias
+Paciente 8: 29 dias
+Paciente 9: 47 dias
+Paciente 10: 18 dias
+Paciente 11: 37 dias
+Paciente 12: 56 dias
+Paciente 13: 14 dias
+Paciente 14: 70 dias
+
+Ordem de tempo:
+Paciente 4: 14 dias
+Paciente 13: 14 dias
+Paciente 10: 18 dias
+Paciente 2: 28 dias
+Paciente 8: 29 dias
+Paciente 7: 32 dias
+Paciente 11: 37 dias
+Paciente 1: 41 dias
+Paciente 3: 42 dias
+Paciente 9: 47 dias
+Paciente 5: 54 dias
+Paciente 12: 56 dias
+Paciente 6: 66 dias
+Paciente 14: 70 dias
